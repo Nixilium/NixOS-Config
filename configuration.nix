@@ -84,10 +84,13 @@
 
 
   programs.git.enable = true;
+  programs.hyprland.enable = true;
 
 
-
-
+  environment.systemPackages = [
+	pkgs.kitty
+	pkgs.wofi
+  ];
 
 
 
